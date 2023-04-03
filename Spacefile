@@ -1,0 +1,25 @@
+# Spacefile Docs: https://go.deta.dev/docs/spacefile/v0
+
+v: 0
+icon: ./logo.png
+app_name: 'TeleDrive'
+micros:
+  - name: app
+    src: ./
+    engine: nodejs16
+    public_routes:
+      - '/*'
+    presets:
+      env:
+        - name: APP_NAME
+          default: Teledrive
+    commands:
+      - yarn build
+    include:
+      - dist
+      - templates
+      - api
+      - electron
+      - press
+      - web
+    run: 'NODE_ENV=production node dist/index.js'
