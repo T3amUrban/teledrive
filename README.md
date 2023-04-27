@@ -2,6 +2,8 @@
 
 This is the open source project of Google Drive/OneDrive/iCloud/Dropbox alternative using Telegram API for the free unlimited cloud storage.
 
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/PIeSeC?referralCode=nQlRPK)
+
 [![img](https://drive.google.com/uc?id=1o2HnKglEF0-cvtNmQqWZicJnSCSmnoEr)](https://twitter.com/telegram/status/1428703364737507332)
 
 ## Motivation
